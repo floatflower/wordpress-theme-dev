@@ -1,0 +1,24 @@
+{
+  "name": "wordpress-theme-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "encore:watch": "encore dev --watch",
+    "encore:build": "encore production --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^3.0.0",
+    "sass": "^1.44.0",
+    "sass-loader": "^13.0.0",
+    "scss": "^0.2.4",
+    "webpack-notifier": "^1.15.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1"
+  }
+}

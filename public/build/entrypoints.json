@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "app": {
+      "css": [
+        "/wp-content/themes/wordpress-theme-dev/app.css"
+      ],
+      "js": [
+        "/wp-content/themes/wordpress-theme-dev/app.js"
+      ]
+    }
+  }
+}
