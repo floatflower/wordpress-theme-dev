@@ -8,8 +8,11 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
     Encore.configureRuntimeEnvironment(process.env.NODE_ENV || 'dev');
 }
 
+console.log(process.env.PUBLIC_PATH);
+
 Encore
-    .setOutputPath('public/build/')
+    .setOutputPath('./public/build/')
+    .setManifestKeyPrefix('./public/build')
     .setPublicPath(process.env.PUBLIC_PATH || '/wp-content/themes/wordpress-theme-dev')
     .addEntry('app', './assets/app.js')
     .disableSingleRuntimeChunk()

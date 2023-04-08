@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "encore:watch": "encore dev --watch",
-    "encore:build": "encore production --progress"
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
   },
   "keywords": [],
   "author": "",

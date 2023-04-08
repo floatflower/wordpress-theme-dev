@@ -1,0 +1,4 @@
+{
+  "./public/build/app.css": "/wp-content/themes/wordpress-theme-dev/app.css",
+  "./public/build/app.js": "/wp-content/themes/wordpress-theme-dev/app.js"
+}
